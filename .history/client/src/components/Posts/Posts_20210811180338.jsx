@@ -1,0 +1,14 @@
+import React from "react";
+import Post from "./Post/Post";
+import useStyles from "./styles";
+
+const Posts = (props) => {
+  return (
+    <>
+      <h1>POSTS</h1>
+      <Post />
+    </>
+  );
+};
+
+export default Posts;
